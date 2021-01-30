@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Montyhall Problem
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "April",
+           family = "Peck",
+           role = c("aut", "cre"),
+           email = "apeck10@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The Monty Hall game is a popular game show strategy where 3 doors are created; one winning ("car") door and two losing ("goat") doors. This package creates functions necessary to play the game. User inputs the number of times to play the game, which can be played n times to evaluate proprtion of wins/losses with each strategy (stay/switch).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: dplyr
